@@ -15,6 +15,7 @@ Change it back to the original white color!
 // @description  Change GitHub's black navbar back to the original white
 // @author       Victor Li
 // @match        https://github.com/*
+// @match        https://gist.github.com/*
 // @run-at document-start
 // ==/UserScript==
 
