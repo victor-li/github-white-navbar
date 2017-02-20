@@ -72,4 +72,7 @@ GM_addStyle('\
     color: #4078c0;\
     border-right-color: #c6d7ec;\
 }\
+.notification-indicator .mail-status {\
+    border: none;\
+}\
 ');
