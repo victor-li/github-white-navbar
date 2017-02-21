@@ -73,6 +73,6 @@ GM_addStyle('\
     border-right-color: #c6d7ec;\
 }\
 .notification-indicator .mail-status {\
-    border: none;\
+    border: 2px solid #f3f3f3;\
 }\
 ');
