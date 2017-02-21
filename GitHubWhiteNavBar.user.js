@@ -13,6 +13,10 @@
 /*jshint multistr: true */
 
 GM_addStyle('\
+.notification-indicator .mail-status {\
+	border: 2px solid #f5f5f5;\
+}\
+\
 .header {\
 	background-color: #f5f5f5;\
 	border-bottom: 1px solid #e5e5e5;\
