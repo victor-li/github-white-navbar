@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         GitHub's Black Navbar to White
 // @namespace    https://victorli.nl
-// @version      1.1
+// @version      1.1.1
 // @description  Change GitHub's black navbar back to the original white
 // @author       Victor Li
 // @match        https://github.com/*
@@ -71,5 +71,8 @@ GM_addStyle('\
 .header .header-search-wrapper.focus .header-search-scope {\
     color: #4078c0;\
     border-right-color: #c6d7ec;\
+}\
+.notification-indicator .mail-status {\
+    border: 2px solid #f3f3f3;\
 }\
 ');
