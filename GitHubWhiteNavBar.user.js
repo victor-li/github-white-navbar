@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         GitHub's Black Navbar to White
 // @namespace    https://victorli.nl
-// @version      1.1.1
+// @version      1.2
 // @description  Change GitHub's black navbar back to the original white
 // @author       Victor Li
 // @match        https://github.com/*
@@ -18,10 +18,10 @@ GM_addStyle('\
 	border-bottom: 1px solid #e5e5e5;\
 }\
 \
-.header-nav-link {\
+.header-navlink {\
 	color: #555;\
 }\
-.header-nav-link:hover {\
+.header-navlink:hover {\
     color: #4078c0;\
 }\
 .header-logo-invertocat {\
@@ -36,13 +36,13 @@ GM_addStyle('\
 .header-logo-wordmark:hover {\
     color: #4078c0;\
 }\
-.header-nav-link:hover .dropdown-caret, .header-nav-link:focus .dropdown-caret {\
+.header-navlink:hover .dropdown-caret, .header-navlink:focus .dropdown-caret {\
     border-top-color: #4078c0;\
 }\
-.header-nav-link:hover .octicon-plus, .header-nav-link:focus .octicon-plus {\
+.header-navlink:hover .octicon-plus, .header-navlink:focus .octicon-plus {\
     border-top-color: #4078c0;\
 }\
-.header-nav-link:hover, .header-nav-link:focus {\
+.header-navlink:hover, .header-navlink:focus {\
     color: #4078c0;\
 }\
 .header .header-search-wrapper {\
